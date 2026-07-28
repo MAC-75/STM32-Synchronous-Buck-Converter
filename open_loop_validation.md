@@ -22,9 +22,9 @@ The averaged Simscape model settles close to the expected operating point:
 - Startup behavior: decaying LC oscillation
 - Final behavior: stable
 
-![Averaged-model voltage](../Results/phase2_average_voltage.png)
+![Averaged-model voltage](average_model_output_voltage.png)
 
-![Averaged-model load current](../Results/phase2_average_current.png)
+![Averaged-model load current](average_model_output_current.png)
 
 ## PWM-switching model
 
@@ -35,9 +35,9 @@ The switching Simscape model uses complementary high-side and low-side PWM comma
 - Startup behavior: decaying LC oscillation
 - Final behavior: stable
 
-![Switching-model voltage](../Results/phase2_switching_voltage.png)
+![Switching-model voltage](switching_model_output_voltage.png)
 
-![Switching-model load current](../Results/phase2_switching_current.png)
+![Switching-model load current](switching_model_output_current.png)
 
 ## Validation conclusion
 
