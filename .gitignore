@@ -1,0 +1,7 @@
+*.asv
+*.autosave
+*.slxc
+*.m~
+slprj/
+codegen/
+
