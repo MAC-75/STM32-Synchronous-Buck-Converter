@@ -46,8 +46,3 @@ The models were made in MATLAB R2025b using Simulink and Simscape Electrical.
 - `Simulink/buck_switching_open_loop.slx`: PWM switching model
 - `Documentation`: specifications and test notes
 - `Results`: calculated values and output waveforms
-
-## Keywords
-
-Power electronics, synchronous buck converter, DC-DC converter, MATLAB, Simulink, Simscape Electrical, PWM, LC filter, STM32G4, voltage regulation.
-

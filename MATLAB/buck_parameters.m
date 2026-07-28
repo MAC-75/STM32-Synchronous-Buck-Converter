@@ -16,10 +16,12 @@ fs = 100e3;
 tsw = 1/fs;
 
 % power stage
+% L = 33e-6; % first value I tried, ripple was a bit high
 L = 47e-6;
-rL = 50e-3;
+rL=50e-3;
+
 C = 100e-6;
-esr = 20e-3;
+esr=20e-3;
 Cin = 100e-6;
 
 % duty and load
@@ -28,7 +30,7 @@ d10 = vo/vin_lo;
 d14 = vo/vin_hi;
 
 rload = vo/io;
-r_full = vo/io_max;
+Rfull = vo/io_max;
 pmax = vo*io_max;
 
 % ripple estimates
@@ -75,4 +77,3 @@ fprintf('\nCapacitor\n')
 fprintf('Cout: %.0f uF\n',C*1e6)
 fprintf('Minimum C: %.1f uF\n',Cmin*1e6)
 fprintf('Estimated ripple: %.2f mV p-p\n',dv*1e3)
-
